@@ -1,0 +1,5 @@
+curso-react-redux
+udemy-react-redux/node_modules
+*.log
+*.pyc
+todoapp/todoapp/configs.py
