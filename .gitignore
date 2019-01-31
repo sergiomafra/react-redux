@@ -1,5 +1,6 @@
-curso-react-redux
-udemy-react-redux/node_modules
 *.log
 *.pyc
+curso-react-redux
+module-webpack/node_modules
+module-react/node_modules
 todoapp/todoapp/configs.py
