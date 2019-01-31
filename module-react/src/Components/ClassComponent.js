@@ -7,6 +7,13 @@ export default class Welcome extends Component {
     name: "man"
   }
 
+  constructor(props) {
+    super(props)
+
+    this.setType = this.setType.bind(this)
+    this.setName = this.setName.bind(this)
+  }
+
   setType(e) {
     this.setState({ type: e.target.value })
   }
@@ -22,8 +29,8 @@ export default class Welcome extends Component {
       <div>
         <h1>{type} {name}</h1>
         <hr />
-        <input type="text" placeholder="Type..." value={type} onChange={e => this.setType(e)} />
-        <input type="name" placeholder="Name..." value={name} onChange={e => this.setName(e)} />
+        <input type="text" placeholder="Type..." value={type} onChange={this.setType} />
+        <input type="name" placeholder="Name..." value={name} onChange={this.setName} />
       </div>
     )
   }

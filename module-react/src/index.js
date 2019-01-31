@@ -5,12 +5,12 @@ import ReactDOM from 'react-dom'
 // import FunctionComponent from './Components/FunctionComponent'
 // import { GoodAfternoon, GoodNight } from './Components/MultipleComponents'
 // import Multi from './Components/MultipleComponents'
-import Welcome from './Components/ClassComponent'
-
+// import Welcome from './Components/ClassComponent'
+import Father from './Components/Father.js'
 
 ReactDOM.render(
   <div>
-    <Welcome type="Good Morning" name="Sérgio" />
+    <Father name="Sérgio" lastname="Mafra" />
   </div>
   , document.getElementById('root')
 )
